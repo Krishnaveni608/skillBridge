@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api";
+// Use relative path for Vercel serverless functions
+const BASE_URL = "https://your-backend-url/api";
 
 // Token helpers
 export const getToken = () => localStorage.getItem("sb_token");
